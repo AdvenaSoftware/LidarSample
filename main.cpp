@@ -58,4 +58,5 @@ lidar->startScan(false, true,0,&scanMode);*/
 
     float angle_in_degrees = node.angle_z_q14 * 90.f / (1 << 14);
     float distance_in_meters = node.dist_mm_q2 / 1000.f / (1 << 2);
+
 }
